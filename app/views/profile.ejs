@@ -1,0 +1,8 @@
+<h2>Profile</h2>
+<p>Name: <%= currentUser ? `${currentUser.first_name} ${currentUser.last_name}` : null %></p>
+<p>Email: <%= currentUser ? currentUser.email : null %></p>
+<p>Username: <%= currentUser ? currentUser.username : null %></p>
+
+<% if (currentUser.admin) { %>
+  <a class="btn btn-primary" href="/api/users">View Users</a>
+<% } %>
