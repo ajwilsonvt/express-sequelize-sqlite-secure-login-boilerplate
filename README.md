@@ -1,4 +1,4 @@
-# express-sqlite-secure-login-boilerplate
+# express-sequelize-sqlite-secure-login-boilerplate
 
 ## SQLite
 
