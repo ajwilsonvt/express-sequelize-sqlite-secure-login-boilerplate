@@ -41,6 +41,7 @@ run `$ sqlite3 db_name.db` to re-enter the shell to manage the database
 ```bash
 $ cd app
 $ npm i
+$ npm run build
 $ sudo npm start
 ```
 
